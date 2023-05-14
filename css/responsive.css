@@ -1,0 +1,127 @@
+@media screen and (max-width: 1300px) {
+
+    .navbar .custom-btn {
+      background: var(--primary-color);
+      padding: 8px 30px;
+      border-radius: 225px;
+      color: var(--white-color);
+      font-size: 16px;
+      font-weight: 400;
+  }
+  .cart{
+    background: var(--primary-color);
+    color:white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: 23px;
+  }
+  .bannar__input__main input {
+    max-width: 714px;
+    padding: 16px 0px 16px  74px;
+    border-radius: 120px;
+    border-color: #396C03;
+}
+.delivery__building {
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.cycal {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    top:0;
+    left: 50px;
+  
+}
+.banner-text h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 130%;
+    color: var(--primary-color);
+    width: auto;
+}
+.bannar__input__main input {
+    width: auto;
+    padding: 16px 0px 16px  74px;
+    border-radius: 120px;
+    border-color: #396C03;
+}
+.bannarRight .bannerFood {
+    width: 100%;
+
+}
+.inputBtn {
+  right: 0;
+}
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .navbar-nav {
+      margin: 1rem 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+      display: inline-block;
+      margin: 5px 0.5rem;
+    }
+    .bannar__input__main input {
+        width: 100%;
+
+    }
+    .inputBtn {
+
+        top: 1px;
+        right: 0px;
+
+    }
+    .bannarRight .bannerFood {
+        width: 100%;
+
+    }
+    .bannarRight {
+        padding-top: 102px;
+    }
+    .bannershape2 {
+        display: none;
+    }
+    .banner-text h1 {
+       width: auto;
+       font-size: 40px;
+    }
+    .banner-text p {
+       font-size: 18px;
+    }
+    .delivery__building {
+        width: 100%;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+    .cycal {
+        width: 100%;
+        position: relative;
+        z-index: 10;
+        top:0;
+        left: 0;
+      
+    }
+    .delivery_text h2 {
+        width: auto;
+        font-size: 40px;
+    }
+    .delivery_text p {
+        font-size: 18px;
+
+        width: auto;
+
+    }
+  }
